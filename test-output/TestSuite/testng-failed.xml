@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test name="Test Task(failed)">
+    <classes>
+      <class name="com.test.task.QETestTask.AddCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- com.test.task.QETestTask.AddCustomerTest -->
+      <class name="com.test.task.QETestTask.RemoveCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="removeNonExistingCustomer"/>
+        </methods>
+      </class> <!-- com.test.task.QETestTask.RemoveCustomerTest -->
+    </classes>
+  </test> <!-- Test Task(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
